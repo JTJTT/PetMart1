@@ -1,0 +1,157 @@
+{
+    "toys": [
+        {
+            "id": 1,
+            "animal": "dog",
+            "name": " Dog Squeaky Toy",
+            "price": 5.99,
+            "stock": 10
+        },
+        {
+            "id": 2,
+            "animal": "dog",
+            "name": "Dog Rope Tug",
+            "price": 7.99,
+            "stock": 10
+        },
+        {
+            "id": 3,
+            "animal": "cat",
+            "name": " Cat Mouse Toy",
+            "price": 4.99,
+            "stock": 10
+        },
+        {
+            "id": 4,
+            "animal": "cat",
+            "name": "Cat Laser Pointer",
+            "price": 8.99,
+            "stock": 10
+        },
+        {
+            "id": 5,
+            "animal": "cat",
+            "name": "Cat Feather Wand",
+            "price": 15.99,
+            "stock": 10
+        }
+    ],
+    "clothes": [
+        {
+            "id": 21,
+            "animal": "dog",
+            "name": "Dog Rain Coat",
+            "price": 27.99,
+            "stock": 10
+        },
+        {
+            "id": 22,
+            "animal": "dog",
+            "name": "Dog Boots",
+            "price": 24.99,
+            "stock": 10
+        },
+        {
+            "id": 23,
+            "animal": "dog",
+            "name": "Dog 18k Gold Chain",
+            "price": 499.99,
+            "stock": 1
+        },
+        {
+            "id": 24,
+            "animal": "cat",
+            "name": "Cat Rain Coat",
+            "price": 25.99,
+            "stock": 10
+        },
+        {
+            "id": 25,
+            "animal": "cat",
+            "name": "Cat Boots",
+            "price": 20.99,
+            "stock": 10
+        }
+    ],
+    "treats": [
+        {
+            "id": 41,
+            "animal": "dog",
+            "name": "Dog Bone - 6oz",
+            "price": 9.99,
+            "stock": 10
+        },
+        {
+            "id": 42,
+            "animal": "dog",
+            "name": "Dog Bone - 16oz",
+            "price": 18.99,
+            "stock": 10
+        },
+        {
+            "id": 43,
+            "animal": "dog",
+            "name": "Dog Bacon Bites",
+            "price": 12.99,
+            "stock": 10
+        },
+        {
+            "id": 44,
+            "animal": "cat",
+            "name": "Cat Beef Paste Treat",
+            "price": 1.99,
+            "stock": 10
+        },
+        {
+            "id": 45,
+            "animal": "cat",
+            "name": "Cat Fruit Bites",
+            "price": 9.99,
+            "stock": 10
+        }
+    ],
+    "furniture": [
+        {
+            "id": 51,
+            "animal": "dog",
+            "name": "Dog Bed -- Small",
+            "price": 30.99,
+            "stock": 10
+        },
+        {
+            "id": 51,
+            "animal": "dog",
+            "name": "Dog Bed -- Large",
+            "price": 40.99,
+            "stock": 10
+        },
+        {
+            "id": 52,
+            "animal": "cat",
+            "name": "Cat Bed",
+            "price": 30.99,
+            "stock": 10
+        },
+        {
+            "id": 53,
+            "animal": "bird",
+            "name": "Bird Cage",
+            "price": 28.99,
+            "stock": 10
+        },
+        {
+            "id": 54,
+            "animal": "fish",
+            "name": "Fish Tank -- Medium",
+            "price": 79.99,
+            "stock": 5
+        },
+        {
+            "id": 55,
+            "animal": "fish",
+            "name": "Fish Tank -- Large",
+            "price": 129.99,
+            "stock": 3
+        }
+    ]
+}

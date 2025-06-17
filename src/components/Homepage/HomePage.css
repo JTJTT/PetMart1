@@ -1,0 +1,131 @@
+.homepage {
+    font-family: 'Arial', sans-serif;
+    color: #4b3621;
+    background-color: #f5f5dc;
+    margin: 0;
+    padding: 0;
+}
+
+.homepage-header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #8b5a2b;
+    color: #fff;
+}
+
+.homepage-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.homepage-header p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+/* Banner Section */
+.homepage-banner {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.homepage-banner-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid #4b3621;
+}
+
+/* Shop by Category Section */
+.homepage-categories {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.homepage-categories h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #8b4513;
+}
+
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    padding: 0 1rem;
+}
+
+.categories-grid .card {
+    background-color: #fff8dc;
+    border: 1px solid #deb887;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.categories-grid .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.categories-grid .card-img-top {
+    align-self: center;
+    margin: 10px auto;
+    max-width: 90%;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: 3px solid #8b4513; 
+}
+
+.categories-grid .card-title {
+    font-size: 1.2rem;
+    color: #4b3621;
+    margin: 0; 
+}
+
+.categories-grid .card-text {
+    font-size: 1rem;
+    color: #4b3621; 
+}
+
+/* Shop by Popular Products Section */
+.homepage-PopularProducts {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.homepage-PopularProducts h2 {
+    margin-bottom: 2rem;
+    color: #8b4513;
+}
+
+.popular-products-grid .card {
+    border: 1px solid #deb887;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.popular-products-grid .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.popular-products-grid .card-img-top {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.popular-products-grid .card-title {
+    font-size: 1.2rem;
+    color: #4b3621;
+}
+
+.popular-products-grid .card-text {
+    font-size: 1rem;
+    color: #4b3621;
+}
