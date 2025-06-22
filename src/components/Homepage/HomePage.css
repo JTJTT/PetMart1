@@ -102,6 +102,7 @@
 }
 
 .popular-products-grid .card {
+    background-color: #fff8dc;
     border: 1px solid #deb887;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -128,4 +129,15 @@
 .popular-products-grid .card-text {
     font-size: 1rem;
     color: #4b3621;
+}
+
+.add-to-cart-btn {
+    background-color: #8b5a2b !important;
+    border: none !important;
+    color: #fff !important;
+    transition: background 0.2s;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #4b3621 !important;
 }

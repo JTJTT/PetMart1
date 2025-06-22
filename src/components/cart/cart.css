@@ -85,3 +85,18 @@ button {
 button:hover {
     background-color: #4b3621;
 }
+
+.checkout-btn {
+    background-color: #8b5a2b;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: background 0.2s;
+}
+
+.checkout-btn:hover {
+    background-color: #4b3621;
+}

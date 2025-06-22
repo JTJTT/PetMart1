@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import Button from 'react-bootstrap/Button';
 import './cart.css';
 import items from '../../items.json';
 
@@ -105,6 +106,9 @@ const Cart = () => {
                         <p>Subtotal: ${calculateSubtotal().toFixed(2)}</p>
                         <p>Tax (6%): ${calculateTax().toFixed(2)}</p>
                         <p>Total: ${calculateTotal().toFixed(2)}</p>
+                        <Button className="checkout-btn" href="/CheckoutPage">
+                            Checkout
+                        </Button>
                     </div>
                 </div>
             )}

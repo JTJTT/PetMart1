@@ -60,7 +60,7 @@ const HomePage = () => {
                                 <Card.Text>
                                     Find everything you need for your furry friends.
                                 </Card.Text>
-                                <Button variant="primary" href="/ProductsPage">Shop Dogs</Button>
+                                <Button className ="add-to-cart-btn" variant="primary" href="/ProductsPage">Shop Dogs</Button>
                             </Card.Body>
                         </Card>
                     </div>
@@ -72,7 +72,7 @@ const HomePage = () => {
                                 <Card.Text>
                                     Explore toys, food, and accessories for your cats.
                                 </Card.Text>
-                                <Button variant="primary" href="/ProductsPage">Shop Cats</Button>
+                                <Button className ="add-to-cart-btn" variant="primary" href="/ProductsPage">Shop Cats</Button>
                             </Card.Body>
                         </Card>
                     </div>
@@ -84,7 +84,7 @@ const HomePage = () => {
                                 <Card.Text>
                                     Browse cages, food, and toys for your feathered friends.
                                 </Card.Text>
-                                <Button variant="primary" href="/ProductsPage">Shop Birds</Button>
+                                <Button className ="add-to-cart-btn" variant="primary" href="/ProductsPage">Shop Birds</Button>
                             </Card.Body>
                         </Card>
                     </div>
@@ -96,7 +96,7 @@ const HomePage = () => {
                                 <Card.Text>
                                     Discover tanks, food, and decorations for your fish.
                                 </Card.Text>
-                                <Button variant="primary" href="/ProductsPage">Shop Fish</Button>
+                                <Button className ="add-to-cart-btn" variant="primary" href="/ProductsPage">Shop Fish</Button>
                             </Card.Body>
                         </Card>
                     </div>
@@ -108,31 +108,28 @@ const HomePage = () => {
                 <div className="row row-cols-1 row-cols-md-3 g-4 popular-products-grid">
                     <div className="col">
                         <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src="/images/dogFood.png" alt="Dog Food" />
                             <Card.Body>
                                 <Card.Title>Dog Squeeky Toy</Card.Title>
                                 <Card.Text>$6.99</Card.Text>
-                                <Button variant="primary">Add to Cart</Button>
+                                <Button className ="add-to-cart-btn" variant="primary" href="/ProductsPage">Add to Cart</Button>
                             </Card.Body>
                         </Card>
                     </div>
                     <div className="col">
                         <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src="/images/catToy.png" alt="Cat Toy" />
                             <Card.Body>
                                 <Card.Title>Cat Mouse Toy</Card.Title>
                                 <Card.Text>$4.99</Card.Text>
-                                <Button variant="primary">Add to Cart</Button>
+                                <Button className ="add-to-cart-btn" variant="primary" href="/ProductsPage">Add to Cart</Button>
                             </Card.Body>
                         </Card>
                     </div>
                     <div className="col">
                         <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src="/images/birdCage.png" alt="Bird Cage" />
                             <Card.Body>
                                 <Card.Title>Bird Cage</Card.Title>
                                 <Card.Text>$50.00</Card.Text>
-                                <Button variant="primary">Add to Cart</Button>
+                                <Button className ="add-to-cart-btn" variant="primary" href="/ProductsPage">Add to Cart</Button>
                             </Card.Body>
                         </Card>
                     </div>
