@@ -60,7 +60,7 @@ const HomePage = () => {
                                 <Card.Text>
                                     Find everything you need for your furry friends.
                                 </Card.Text>
-                                <Button variant="primary">Shop Dogs</Button>
+                                <Button variant="primary" href="/ProductsPage">Shop Dogs</Button>
                             </Card.Body>
                         </Card>
                     </div>
@@ -72,7 +72,7 @@ const HomePage = () => {
                                 <Card.Text>
                                     Explore toys, food, and accessories for your cats.
                                 </Card.Text>
-                                <Button variant="primary">Shop Cats</Button>
+                                <Button variant="primary" href="/ProductsPage">Shop Cats</Button>
                             </Card.Body>
                         </Card>
                     </div>
@@ -84,7 +84,7 @@ const HomePage = () => {
                                 <Card.Text>
                                     Browse cages, food, and toys for your feathered friends.
                                 </Card.Text>
-                                <Button variant="primary">Shop Birds</Button>
+                                <Button variant="primary" href="/ProductsPage">Shop Birds</Button>
                             </Card.Body>
                         </Card>
                     </div>
@@ -96,7 +96,7 @@ const HomePage = () => {
                                 <Card.Text>
                                     Discover tanks, food, and decorations for your fish.
                                 </Card.Text>
-                                <Button variant="primary">Shop Fish</Button>
+                                <Button variant="primary" href="/ProductsPage">Shop Fish</Button>
                             </Card.Body>
                         </Card>
                     </div>

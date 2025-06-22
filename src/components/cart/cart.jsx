@@ -43,9 +43,16 @@ const Cart = () => {
 
     //update quantity
     const updateQuantity = (id, quantity) => {
+        //setCartItems uses the useState function to update the current state of the cart items
         setCartItems((prevItems) =>
+            //prevItems is the current cart items, .map goes through every item to check if it matches the id we want to update
             prevItems.map((item) =>
-                item.id === id ? { ...item, quantity: Math.max(1, quantity) } : item
+                //if current id(item.id) matches the id we want to update
+                item.id === id
+                //then do this(update quantity,-->minimum quantity HAS to be 1-->makes sure quantity can exceed stock)
+                ? { ...item, quantity: Math.max(1, Math.min(quantity, item.stock)) }
+                //if the id doesnt match, just return item as is
+                : item
             )
         );
     };

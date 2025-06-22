@@ -1,5 +1,8 @@
 import React from 'react';
 import items from '../../items.json';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
+import './ProductsPage.css';
 
 function ProductsPage() {
     //products from items.json
@@ -26,28 +29,35 @@ const products = [
           : item
       );
     } else {
-      //if not in cart, add with quantity 1
+      //if not in cart already, add with quantity 1
       updatedCart = [...currentCart, { ...product, quantity: 1 }];
     }
     console.log("Cart after add:", updatedCart);
     sessionStorage.setItem('cartItems', JSON.stringify(updatedCart));
+    //alert user that product was added to cart
     alert(`${product.name} added to cart!`);
   };
 
   return (
-    <div>
-      <h1>Products</h1>
-      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem' }}>
+    <div className="products-page">
+      <h1 className="products-title">Products</h1>
+      <div className="products-grid">
         {products.map(product => (
-          <div key={product.id} style={{ border: '1px solid #ccc', padding: '1rem', width: '200px' }}>
-            <h3>{product.name}</h3>
-            <p>Animal: {product.animal}</p>
-            <p>Price: ${product.price.toFixed(2)}</p>
-            <p>Stock: {product.stock}</p>
-            <button onClick={() => addToCart(product)}>
-              Add to Cart
-            </button>
-          </div>
+          <Card key={product.id} className="product-card">
+            <Card.Body>
+              <Card.Title className="product-name">{product.name}</Card.Title>
+              <Card.Text className="product-animal">Animal: {product.animal}</Card.Text>
+              <Card.Text className="product-price">Price: ${product.price.toFixed(2)}</Card.Text>
+              <Card.Text className="product-stock">Stock: {product.stock}</Card.Text>
+              <Button
+                variant="primary"
+                className="add-to-cart-btn"
+                onClick={() => addToCart(product)}
+              >
+                Add to Cart
+              </Button>
+            </Card.Body>
+          </Card>
         ))}
       </div>
     </div>
