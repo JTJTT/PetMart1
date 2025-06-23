@@ -16,6 +16,7 @@ const CheckoutPage = () => {
             (total, item) => total + item.price * (item.quantity || 1),
             0
         );
+        //bug subtotal not the same as cart total, need to fix
 
     return (
         <div className="row">
